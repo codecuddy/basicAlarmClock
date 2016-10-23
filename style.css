@@ -1,0 +1,9 @@
+#buttons {
+    text-align: center;
+} 
+
+button  {
+    margin: 15px;
+    font-size: 1.2em;
+    border-radius: 15px
+}

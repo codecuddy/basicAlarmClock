@@ -5,19 +5,17 @@
   </head>
 
   <body>
-    <div>
-      <button onclick="handlers.twoSec()">Start 2 Second Timer</button>
+    <div id='buttons'>
+        <h1>Click a Button to Start the Timer... </h1>
+        <div>
+          <button onclick="handlers.twoSec()">2 Second Timer</button>
+        </div>
+        <div>
+          <button onclick="handlers.fiveSec()">5 Second Timer</button>
+        </div>
+        <div>
+          <button onclick="handlers.EightSec()">8 Second Timer</button>
+        </div>
     </div>
-    <div>
-      <button onclick="handlers.fiveSec()">Start 5 Second Timer</button>
-    </div>
-    <div>
-      <button onclick="handlers.EightSec()">Start 8 Second Timer</button>
-    </div>
-    
-    <div>
-        <h1 id="clickedButton"></h1>
-    </div>
-
     <script src="script.js"></script>
   </body>
