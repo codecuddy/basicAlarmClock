@@ -20,7 +20,7 @@ var handlers = {
     }, 8000)},
     
     fire: function() { setTimeout(function() {
-        document.write("Stop!! Drop!! Roll! </br> <a href='index.html'>back</a> </br>");
+        document.write("Stop!! Drop!! Roll!! </br> <a href='index.html'>back</a> </br>");
     }, 200)}
 }
 
