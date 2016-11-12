@@ -15,9 +15,13 @@ var handlers = {
         document.write("You clicked the button 5 seconds ago </br> <a href='index.html'>back</a> </br>");
     }, 5000)},
     
-    EightSec: function() { setTimeout(function() {
+    eightSec: function() { setTimeout(function() {
         document.write("You clicked the button 8 seconds ago </br> <a href='index.html'>back</a> </br>");
     }, 8000)},
+    
+    tenSec: function() { setTimeout(function() {
+        document.write("You clicked the button 10 seconds ago </br> <a href='index.html'>back</a> </br>");
+    }, 10000)},
     
     fire: function() { setTimeout(function() {
         document.write("Stop!! Drop!! Roll!! </br> <a href='index.html'>back</a> </br>");
